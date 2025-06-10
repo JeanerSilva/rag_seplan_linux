@@ -1,0 +1,6 @@
+python .\conversor_pdf.py pdf/agendas
+python .\conversor_pdf.py pdf/guias
+python .\conversor_pdf.py pdf/normas
+
+Para criar chunks do Anexo III
+python .\a3_gerar_jsonl_do_anexo_III.py
