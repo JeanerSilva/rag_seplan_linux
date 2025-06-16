@@ -1,0 +1,69 @@
+# Core LangChain e extensões
+langchain
+langchain-community
+langchain-ollama
+langchain-openai
+langchain-huggingface
+
+# LLMs locais
+torch  # Usado por transformers e modelos locais
+# PyTorch 2.3.1 com suporte a CUDA 12.1
+torch==2.3.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+
+tiktoken
+
+# Processamento de texto e PDF
+unstructured
+PyPDF2
+pymupdf
+pdfminer.six
+python-docx
+openpyxl
+xlrd
+
+
+#Recall
+sentence-transformers 
+scikit-learn 
+rouge-score
+
+# Imagem
+pillow
+
+# Infraestrutura
+faiss-cpu
+tqdm
+pydantic
+python-dotenv
+
+# Interface web
+streamlit
+
+# Desenvolvimento e testes
+pytest
+
+
+
+
+#langchain
+#langchain-core
+#langchain-community
+#langchain-huggingface
+#streamlit
+#tqdm
+#pydantic
+#python-dotenv
+#unstructured
+#pdfminer.six
+#faiss-cpu
+#python-docx
+#pytest
+#tiktoken
+##llama-cpp-python
+#langchain_ollama 
+#langchain_openai 
+#langchain-ollama
+#openpyxl
+#xlrd
+#torch
+#PyPDF2
