@@ -7,6 +7,9 @@ langchain-huggingface
 
 # LLMs locais
 torch  # Usado por transformers e modelos locais
+# PyTorch 2.3.1 com suporte a CUDA 12.1
+torch==2.3.1+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
+
 tiktoken
 
 # Processamento de texto e PDF
